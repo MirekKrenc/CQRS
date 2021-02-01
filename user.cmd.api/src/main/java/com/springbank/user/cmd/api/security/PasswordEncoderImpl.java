@@ -8,8 +8,7 @@ public class PasswordEncoderImpl implements PasswordEncoder {
     @Override
     public String hashedPassword(String password) {
         var bCryptPasswordEncoder = new BCryptPasswordEncoder(12);
-        var hashedPassword = bCryptPasswordEncoder.encode(password);
 
-        return hashedPassword;
+        return bCryptPasswordEncoder.encode(password);
     }
 }
