@@ -1,7 +1,7 @@
-package com.springbank.user.core.configuration.events;
+package com.springbank.user.core.events;
 
 
-import com.springbank.user.core.configuration.models.User;
+import com.springbank.user.core.models.User;
 import lombok.Builder;
 import lombok.Data;
 

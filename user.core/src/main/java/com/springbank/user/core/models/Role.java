@@ -1,4 +1,4 @@
-package com.springbank.user.core.configuration.models;
+package com.springbank.user.core.models;
 
 import org.springframework.security.core.GrantedAuthority;
 

@@ -1,4 +1,4 @@
-package com.springbank.user.core.configuration.models;
+package com.springbank.user.core.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
